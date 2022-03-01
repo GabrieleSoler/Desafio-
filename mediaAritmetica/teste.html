@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Calculo IMC</title>
+            <script src="mediaAritmetica.js"></script>
+        </head>
+        <body>
+            <div>
+                <h1>Calculadora de Média Aritmética</h1>
+                <div id="total">
+                    <input type="text" id="totalNotas" value="3" placeholder="Digite o total de notas"/>
+                    <button type="button" onclick="CalcularMedia.exibirInputs();">Ok</button>
+                </div>
+                <div id="calculo" style="display: none;">
+                    <div id="entradas"></div>
+                    <button type="button" onclick="CalcularMedia.calcularMedia();">Calcular</button>
+                </div>
+            </div>
+        </body>
+    </html>
