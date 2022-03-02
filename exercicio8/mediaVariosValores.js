@@ -12,7 +12,6 @@ const CalcularMedia = new function() {
         } 
         const entradasDiv = document.getElementById("entradas");
         entradasDiv.innerHTML = elementoHtml
-
         // Essa função faz com que quando o usuário digite o numero total de notas, apareça os inputs de acordo com a quantidade digitada
     };
 

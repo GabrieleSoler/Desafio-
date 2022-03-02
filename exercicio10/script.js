@@ -34,7 +34,6 @@ function contemRepetidos(vetor) {
             //Se o contador estiver com valor maior que 1, então quer dizer que há elemento repetido.
         }
     }
-
     return false
 }
 

@@ -23,7 +23,6 @@ function imc () {
         }else {
             classificacao = 'com obesidade grau III.';
     //Aqui é feito a classificação do imc de acordo com o resultado que o usuário digitou.
-
         }
 
         resultado.textContent = `${nome} seu IMC é ${valorIMC} e você está ${classificacao}`;
